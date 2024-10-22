@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadpool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Deadpool</h1>
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button id="btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+        <section>
+            <div class="container">
+                <h1>the Unstoppable World of Deadpool</h1>
+                <p>Welcome to the epicenter of all things Deadpool! Unleash the irreverent charm, unparalleled wit, and the sheer madness that define the Merc with a mouth, Join us on a wild ride through the chaotic adventures of the Wade wilson, where humore meets action and the unexpected is just another Tuesday.</p>
+            <div class="buttons">
+                <button >Try</button>
+                <button >Watch</button>
+            </div>
+            </div>
+            <img src="deadpool og.png" alt="">
+        </section>
+    </header>
+</body>
+<script>
+    const btn= document.getElementById("btn")
+    const list=document.querySelector(".list")
+
+    btn.addEventListener("click",()=>{
+        list.classList.toggle("show")
+    })
+</Script>
+</html>
